@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #ccc;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1024px;
+  width: 1140px;
+}
+
+ul li {
+  list-style: none;
+}
+
+/*Strat -----headeing-------*/
+.header {
+  padding: 10px;
+  margin: 0px;
+  background: #fff;
+}
+
+.call a {
+  color: #650046;
+  margin-left: 230px;
+}
+
+.headermenu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 14px;
+  margin-left: 60px;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.headermenu a {
+  padding-left: 5px;
+}
+
+.headermenu .freelist {
+  color: #636363;
+  background: #650046;
+  border-radius: 5px;
+  margin: 0px 13px;
+  padding: 5px 10px;
+}
+
+.headermenu .freelist:hover {
+  background: #b90984;
+}
+
+.headermenu .freelist a {
+  color: #fff;
+}
+
+.headermenu .freelist a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.headermenu .promote {
+  color: #636363;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.headermenu .promote:hover {
+  background: #b90984;
+}
+
+.headermenu .promote a {
+  color: #636363;
+}
+
+.headermenu .promote a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.headermenu .login {
+  border-radius: 5px;
+  padding-top: 5px;
+  margin-right: 0px;
+}
+
+.headermenu .login:hover {
+  background: #b90984;
+  color: #fff !important;
+}
+
+.headermenu .login a {
+  color: #636363;
+}
+
+.headermenu .login a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.logo img {
+  width: 150px;
+  display: block;
+  height: 65px;
+}
+
+/* end ---header-------*/
+/*start--slider*/
+.dropdown-toggle {
+  padding: 2px 20px;
+  font-size: 14px;
+  color: #636363;
+  white-space: nowrap;
+}
+
+/*---end slider*/
+/*start-------contain*/
+.contain {
+  background: #efefef;
+  margin: 0px;
+}
+
+/*--start-----left---side----bar----category---list*/
+.sliderbar {
+  background: #fff;
+  padding: 0;
+  margin: -238px 0px 0px 29px;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.sliderbar .barlist {
+  width: 100%;
+  padding: 0px 0px;
+}
+
+.sliderbar .barlist li {
+  padding: 5px 0px 5px 15px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.sliderbar .barlist li:hover {
+  -webkit-box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+.sliderbar .barlist li a {
+  color: #636363;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.sliderbar .barlist li a span {
+  padding: 0px 5px;
+}
+
+.sliderbar .barlist li a span img {
+  width: 30px;
+  height: 30px;
+}
+
+.sliderbar .barlist li:nth-child(even) {
+  background: #650046;
+  width: 100%;
+}
+
+.sliderbar .barlist li:nth-child(even) a {
+  color: #fff;
+}
+
+/*--end---left---side----bar----category---list*/
+/*start----search-side----of----contain*/
+.search {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px;
+  position: relative;
+}
+
+.search .searchinp {
+  position: absolute;
+  top: 0px;
+  left: 30%;
+  width: 430px;
+  height: 100%;
+  z-index: 1;
+}
+
+.search .searchinp .inp {
+  width: 100%;
+  height: 100%;
+  border: 0px;
+  padding: 0px 10px;
+  outline: 0px;
+}
+
+.search .searchinp .inp::-webkit-input-placeholder {
+  padding-left: 20px;
+  opacity: 0.7;
+}
+
+.search .searchinp .inp:-ms-input-placeholder {
+  padding-left: 20px;
+  opacity: 0.7;
+}
+
+.search .searchinp .inp::-ms-input-placeholder {
+  padding-left: 20px;
+  opacity: 0.7;
+}
+
+.search .searchinp .inp::placeholder {
+  padding-left: 20px;
+  opacity: 0.7;
+}
+
+.search .search-icon {
+  position: absolute;
+  top: 0px;
+  right: -20px;
+}
+
+.search .search-icon span i {
+  width: 40px;
+  background: #650046;
+  color: #fff;
+  font-size: 30px;
+  padding: 5px;
+  height: 40px;
+}
+
+.search .search-laocation {
+  position: absolute;
+  top: 1px;
+  left: 2%;
+  width: 100%;
+  height: 100%;
+}
+
+/*end----search-side----of----contain*/
+/*---end -------contain*/
+/*start---mobile--responsive------*/
+@media (max-width: 600px) {
+  .sliderbar {
+    display: none;
+  }
+}
+
+/*end ---mobile----responsive*/
+/*# sourceMappingURL=style.css.map */
