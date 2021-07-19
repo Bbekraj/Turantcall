@@ -3,4 +3,72 @@
 {
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.main-body
+{
+    margin: 25px;
+}
+.bbek
+{   
+    display:flex;
+    
+} 
+.sandeep
+{
+    height: 200px !important;
+}
+.right
+{
+    order: 2;
+}
+.left
+{
+    order: 1;
+}
+footer
+{
+    margin-top:0px;
+}
+.footer-iner
+{
+    display: grid;
+    grid-template-columns: 25% 20% 30% 25%;
+    grid-gap: 10px;
+   
+}
+.adds 
+{
+    display: block;
+    margin-top: 10px;
+    width: 95%;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    a 
+    {
+        img 
+        {
+            width: 100%;
+            height: 150px;
+        }
+    }
+}
+.ccc
+{
+    .container-fluid 
+    {
+        .row
+        {
+           .col-lg-6 
+           {
+               width: 56%;
+           }
+           .col-lg-3
+           {
+               width: 22%;
+           }
+        }
+    }
 }
