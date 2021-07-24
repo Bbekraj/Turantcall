@@ -72,3 +72,30 @@ footer
         }
     }
 }
+.search-category
+{
+    width: 60%;
+}
+.ser-cat 
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: center;
+    .inp 
+    {
+        width: 300px !important;
+        height: 38px !important;
+       box-shadow: 0 0 2px rgba($color: #000000, $alpha: 1.0);
+       margin-top: 1px;
+       margin-left: 15px;
+    }
+    .btn-info 
+    {
+        width:137px;
+        margin-top: -1px;
+        height: 40px;
+        padding-top: 10px;
+        text-align: center;
+        
+    }
+}
