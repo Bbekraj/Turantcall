@@ -1,0 +1,10 @@
+$(window).scroll(function(){
+    if($(this).scrollTop()>100){
+        $(".header").addClass("sticky")
+        $(".array").show()
+    }
+    else{
+        $(".header").removeClass("sticky")
+        $(".array").hide()
+    }
+})
